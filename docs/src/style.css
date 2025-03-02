@@ -130,6 +130,10 @@ body {
   height: 100vh;
 }
 
+.sidebar-nav a {
+  text-decoration: none;
+}
+
 .nav-header {
   width: 100%;
 }

@@ -22,10 +22,12 @@ const links = [
 <template>
   <aside class="sidebar-container">
     <nav class="sidebar-nav">
-      <div class="nav-header">
-        <img :src="tslogo" class="logo" />
-        <p class="brand-name">Taxzyyy Scripts</p>
-      </div>
+      <a href="/">
+          <div class="nav-header">
+          <img :src="tslogo" class="logo" />
+          <p class="brand-name">Taxzyyy Scripts</p>
+        </div>
+      </a>
 
       <div class="divider2"></div>
       <div class="realbatman"></div>
@@ -46,7 +48,7 @@ const links = [
         @click="setActiveButton('Guides')"
       >
         <div class="link-buttons">
-          Guides
+          txz_lib
           <font-awesome-icon :icon="faAngleRight" class="icon-dropdown" />
         </div>
       </div>
